@@ -10,7 +10,6 @@
 <body style="background-color: black">
   <p style="color: white;  font-size : 20px;">
     team work with saiyed aadil and ali
-    i'm team leader for project .
   </p>
 
   <?php
@@ -27,6 +26,7 @@
   $a = myFamily("Doe", "Mahin", "Aadil", "Ali");
   echo $a;
   
+  # Output 
   # Hi, Mahin Doe.
   # Hi, Aadil Doe.
   # Hi, Ali Doe. 
