@@ -26,7 +26,7 @@
   $a = myFamily("Doe", "Mahin", "Aadil", "Ali");
   echo $a;
   
-  # Output 
+  # Output -1
   # Hi, Mahin Doe.
   # Hi, Aadil Doe.
   # Hi, Ali Doe. 
