@@ -72,7 +72,7 @@ This project is professionally developed and maintained by **[SaiyedWebCoders](h
 
 For any technical queries or professional web development services, contact the team at **SaiyedWebCoders**:
 
-- **Founder:** Mahin
+- **Founder:** Saiyed Mahin
 - **Website:** [https://saiyedwebcoders.netlify.app](https://saiyedwebcoders.netlify.app)
 
 ---
