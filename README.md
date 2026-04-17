@@ -1,63 +1,80 @@
-# Project Shoes - E-Commerce Platform
+# Project Shoes - E-Commerce Web Application
 
-Project Shoes ek fully functional E-commerce web application hai jise footwear, apparel, aur accessories ki online selling ke liye design kiya gaya hai. Isme advanced features jaise Google OAuth, Payment Gateway integration, aur ek robust Admin Dashboard shamil hai.
+Project Shoes is a comprehensive, feature-rich E-commerce platform designed specifically for the footwear, apparel, and accessories market. Built with performance and scalability in mind, it provides a seamless shopping experience for customers and a powerful management interface for administrators.
 
 ## 🚀 Developed By
-Ye website **[SaiyedWebCoders](https://saiyedwebcoders.netlify.app)** dwara banayi gayi hai.
+This project is professionally developed and maintained by **[SaiyedWebCoders](https://saiyedwebcoders.netlify.app)**.
 - **Founder:** Mahin
-- **Company Website:** [saiyedwebcoders.netlify.app](https://saiyedwebcoders.netlify.app)
+- **Official Website:** [saiyedwebcoders.netlify.app](https://saiyedwebcoders.netlify.app)
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- **User Authentication:** Login, Registration, aur Google OAuth integration.
-- **Product Management:** Categories ke hisaab se products (Footwear, Apparel, Accessories).
-- **Shopping Cart & Wishlist:** Smooth shopping experience ke liye AJAX-based cart aur wishlist.
-- **Secure Payments:** Card payment aur WhatsApp payment options.
-- **Admin Dashboard:** Orders, Products, Users, aur Messages ko manage karne ke liye powerful admin panel.
-- **Order Tracking:** Users apne orders ka status track kar sakte hain.
-- **Newsletter:** Email subscription feature customers ko updates bhejne ke liye.
-- **Responsive Design:** Mobile, Tablet aur Desktop ke liye fully optimized.
+### User Experience:
+- **Product Catalog:** Browsing across categories like Footwear, Apparel, and Accessories.
+- **Advanced Shopping Cart:** Real-time cart updates and secure checkout process.
+- **Wishlist:** Users can save their favorite items for later.
+- **Order Tracking:** Integrated system to track order status in real-time.
+- **Responsive Design:** Optimized for mobile, tablet, and desktop devices.
+
+### Technical & Security:
+- **Authentication:** Secure Login/Register system with Google OAuth integration.
+- **Payments:** Support for Card Payments and direct WhatsApp Payment integration.
+- **Notifications:** Automated email system for Welcome messages, Order Confirmations, and Password Resets.
+- **Newsletter:** Subscription system for marketing and updates.
+
+### Administration:
+- **Powerful Dashboard:** Full control over Products, Categories, and User data.
+- **Order Management:** Efficient processing and status updates of customer orders.
+- **Sales Reports:** Detailed analytics and reporting tools.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML5, CSS3, JavaScript (AJAX, jQuery)
-- **Backend:** PHP (OOP concepts)
+- **Frontend:** HTML5, CSS3, JavaScript (jQuery/AJAX)
+- **Backend:** PHP (Object-Oriented Programming)
 - **Database:** MySQL
-- **Tools:** PHPMailer (Emails ke liye), Google API (Auth ke liye)
+- **Emailing:** PHPMailer Integration
+- **APIs:** Google OAuth API
 
 ---
 
 ## 📁 Project Structure
 
-- `/admin`: Admin panel ke saare modules.
-- `/auth`: Login, Register aur Password Reset logic.
-- `/api`: Frontend aur Backend ke beech data transfer ke liye scripts.
-- `/config`: Database aur Email configuration files.
-- `/database`: SQL schema files.
-- `/pages`: Website ke main pages (Cart, Checkout, Product details, etc.)
-- `/uploads`: Product images aur media files.
+- `/admin`: Management modules for the store administrator.
+- `/auth`: Logic for user authentication and Google login.
+- `/api`: Endpoints for cart, reviews, and profile updates.
+- `/config`: Database connections and system configurations.
+- `/pages`: Main front-facing website pages.
+- `/database`: SQL schemas for quick setup.
+
+---
 
 ## 🔧 Installation & Setup
 
-1. **Database Setup:** - `project shoes/database/schema.sql` file ko apne MySQL database mein import karein.
-   - `project shoes/config/database.php` mein apni database credentials update karein.
+1. **Database Configuration:**
+   - Import the SQL files from the `/database` folder into your MySQL server.
+   - Update your credentials in `project shoes/config/database.php`.
 
-2. **Server Start:**
-   - XAMPP/WAMP ka use karein aur project folder ko `htdocs` mein rakhein.
-   - Aap `start_server.bat` file ka use karke bhi development environment setup kar sakte hain.
+2. **Server Requirements:**
+   - Use a local server like XAMPP or WAMP.
+   - Ensure the project is placed in the `htdocs` directory.
+   - You can also run the included `start_server.bat` for quick initialization.
 
-3. **Admin Access:**
-   - Admin login ke liye `/admin` path par jayein.
-   - Pehli baar setup ke liye `setup.php` ya `init_db.php` ka use karein.
+3. **Email Setup:**
+   - Configure SMTP settings in `project shoes/config/email.php` to enable notification features.
 
-## 📞 Contact for Support
+---
 
-Agar aapko is project se related koi help chahiye, toh aap **SaiyedWebCoders** se sampark kar sakte hain:
-- **Website:** [saiyedwebcoders.netlify.app](https://saiyedwebcoders.netlify.app)
-- **Developer:** Mahin (Founder)
+## 📞 Support & Contact
+
+For any technical queries or professional web development services, contact the team at **SaiyedWebCoders**:
+
+- **Founder:** Mahin
+- **Website:** [https://saiyedwebcoders.netlify.app](https://saiyedwebcoders.netlify.app)
+
+---
 
 &copy; 2026 **SaiyedWebCoders**. All Rights Reserved.
