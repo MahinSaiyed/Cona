@@ -1,4 +1,3 @@
-# Cona Footwear Website (React)
 # Project Shoes - E-Commerce Platform
 
 Project Shoes ek fully functional E-commerce web application hai jise footwear, apparel, aur accessories ki online selling ke liye design kiya gaya hai. Isme advanced features jaise Google OAuth, Payment Gateway integration, aur ek robust Admin Dashboard shamil hai.
